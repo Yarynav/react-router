@@ -15,7 +15,7 @@ function App() {
             <Route path="/contacto" element={<Contacto />} />
             <Route path="/home" element={<Home />} />
             <Route exact path="/" element={<Navigate replace to="/home" />} />
-            <Route path="*" element={<div>Pagina no encontrada</div>} />
+            <Route path="/*" element={<div>Pagina no encontrada</div>} />
           </Routes>
         </div>
       </BrowserRouter>
